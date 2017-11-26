@@ -145,4 +145,12 @@
         <publish_date>2017-01-25T00:00:00-05:00</publish_date>
         <title>XXXX XXXX</title>
     </book>
+    <book id="bk218">
+        <author>XXX XXX</author>
+        <description>XXXXXXXXXXXXXXXXXXX</description>
+        <genre>XX XX XX</genre>
+        <price>5.55</price>
+        <publish_date>2017-01-25T00:00:00-05:00</publish_date>
+        <title>XXXX XXXX</title>
+    </book>
 </catalog>

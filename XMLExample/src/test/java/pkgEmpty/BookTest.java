@@ -30,7 +30,7 @@ public class BookTest {
 		b.setTitle("XXXX XXXX");
 		b.setGenre("XX XX XX");
 		b.setDescription("XXXXXXXXXXXXXXXXXXX");
-		b.setId("bk500");
+		b.setId("bk218");
 		
 
 		String inputString = "11-25-2017";
@@ -43,10 +43,12 @@ public class BookTest {
 		
 		Book.addBook("catID", b);
 		
-		Book b1 = Book.getBook("bk500");
+		Book b1 = Book.getBook("bk218");
 		
 		
 		assertEquals(b1.getTitle(), "XXXX XXXX");
+		assertEquals(b1.getAuthor(), "XXX XXX");
+		assertEquals(b1.getGenre(), "XX XX XX");
 		
 	}
 	
