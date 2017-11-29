@@ -16,21 +16,21 @@ public class BookTest {
 
 	@Test
 	public void testGetBook() throws BookException {
-		Book b = Book.getBook("bk107");
+		Book b = Book.getBook("bk102");
 		
-		assertEquals(b.getTitle(), "Splish Splash");
-		assertEquals(b.getAuthor(), "Thurman, Paula");
-		assertEquals(b.getGenre(), "Romance");
+		assertEquals(b.getTitle(), "Midnight Rain");
+		assertEquals(b.getAuthor(), "Ralls, Kim");
+		assertEquals(b.getGenre(), "Fantasy");
 	}
 	@Test
 	public void testAddBook() throws BookException, ParseException {
 		
 		Book b = new Book();
-		b.setAuthor("XXX XXX");
-		b.setTitle("XXXX XXXX");
-		b.setGenre("XX XX XX");
-		b.setDescription("XXXXXXXXXXXXXXXXXXX");
-		b.setId("bk218");
+		b.setAuthor("SHA BII");
+		b.setTitle("CAOQ SBBB");
+		b.setGenre("LL LL LL");
+		b.setDescription("YOUSB");
+		b.setId("bk995");
 		
 
 		String inputString = "11-25-2017";
@@ -43,12 +43,12 @@ public class BookTest {
 		
 		Book.addBook("catID", b);
 		//00
-		Book b1 = Book.getBook("bk218");
+		Book b1 = Book.getBook("bk995");
 		
 		
-		assertEquals(b1.getTitle(), "XXXX XXXX");
-		assertEquals(b1.getAuthor(), "XXX XXX");
-		assertEquals(b1.getGenre(), "XX XX XX");
+		assertEquals(b1.getTitle(), "CAOQ SBBB");
+		assertEquals(b1.getAuthor(), "SHA BII");
+		assertEquals(b1.getGenre(), "LL LL LL");
 		
 	}
 	
