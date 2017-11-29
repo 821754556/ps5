@@ -42,7 +42,7 @@ public class BookTest {
 		b.setPrice(5.55);
 		
 		Book.addBook("catID", b);
-		
+		//22
 		Book b1 = Book.getBook("bk218");
 		
 		
