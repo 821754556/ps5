@@ -185,4 +185,12 @@
         <publish_date>2017-01-25T00:00:00+08:00</publish_date>
         <title>CAOQ SBBB</title>
     </book>
+    <book id="bk994">
+        <author>SHA BII</author>
+        <description>YOUSB</description>
+        <genre>LL LL LL</genre>
+        <price>5.55</price>
+        <publish_date>2017-01-25T00:00:00+08:00</publish_date>
+        <title>CAOQ SBBB</title>
+    </book>
 </catalog>
